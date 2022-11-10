@@ -24,7 +24,7 @@ Apps that offer a SCIM 2.0 REST API can reduce or eliminate the pain of working 
 
 The standard user object schema and rest APIs for management defined in SCIM 2.0 (RFC [7642](https://tools.ietf.org/html/rfc7642), [7643](https://tools.ietf.org/html/rfc7643), [7644](https://tools.ietf.org/html/rfc7644)) allow identity providers and apps to more easily integrate with each other. Application developers that build a SCIM endpoint can integrate with any SCIM-compliant client without having to do custom work.
 
-To automate provisioning to an application, it requires building and integrating a SCIM endpoint that is access by the Azure AD Provisioning Service. Use the following steps to start provisioning users and groups into your application.
+To automate provisioning to an application, it requires building and integrating a SCIM endpoint that is accessible by the Azure AD Provisioning Service. Use the following steps to start provisioning users and groups into your application.
 
 
 1. [Design your user and group schema](#design-your-user-and-group-schema) - Identify the application's objects and attributes to determine how they map to the user and group schema supported by the Azure AD SCIM implementation.
